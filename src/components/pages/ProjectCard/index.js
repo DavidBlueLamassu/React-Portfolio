@@ -2,9 +2,8 @@ import React from "react";
 import "./style.css";
 
 function ProjectCard(props) {
-  console.log(props.screenshot);
   return (
-    <div className="card">
+    <div className="card col-lg-3 col-md-5 col-sm-12">
       <div className="img-container">
         <img alt={props.title} src={props.screenshot} />
       </div>
@@ -26,3 +25,4 @@ function ProjectCard(props) {
 }
 
 export default ProjectCard;
+
