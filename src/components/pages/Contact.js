@@ -57,7 +57,7 @@ function Contact(props) {
           <a href="mailto:dra21@cam.ac.uk" style={styles.links}>E-mail</a>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12">
-          <a href="https://github.com/DavidBlueLamassu" style={styles.links}>CV</a>
+          <a href="https://drive.google.com/file/d/1bzNSK8dZJcKRyuq8AdRfgVmCGf3MVq90/view" style={styles.links}>CV</a>
         </div>
       </div>
       {/* Overview https://getbootstrap.com/docs/4.0/components/forms/ */}
