@@ -9,7 +9,7 @@ const styles = {
     fontSize: "50px",
     textAlign: "center",
     marginBottom: "50px",
-    paddingTop: "20px"
+    paddingTop: "35px"
   },
   linkSpacing: {
     marginBottom: "50px",
