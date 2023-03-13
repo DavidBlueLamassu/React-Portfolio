@@ -44,14 +44,15 @@ function Home() {
         <div className="col-lg-2 col-md-2 col-sm-2" style={styles.imageBox} >
         <img alt="David Adams" src="./../assets/images/portrait.jpg" style={styles.image} />
         </div>
-        <p className="lead col-lg-10 col-md-12 col-sm-12" style={styles.text}>Nunc pharetra finibus est at efficitur. Praesent sed congue diam. 
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus 
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper imperdiet. Praesent 
-        euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at. 
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. 
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus 
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper imperdiet. Praesent 
-        euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.</p>
+        <p className="lead col-lg-10 col-md-12 col-sm-12" style={styles.text}>Welcome to my webpage. I am 
+        currently training as a web developer and am in the final stages of a coding bootcamp in Front End 
+        Web Development (week 13 of 16) run by Trilogy Education Services. The skills that I learned over 
+        the course of this programme include coding with: React.js/JSX, Node.js, JavaScript/jQuery, CSS, 
+        and HTML (including Bootstrap). To date I have deployed eleven webpages on GitHub pages including 
+        a group project using Words API and Giphy API. I particularly enjoy the problem-solving aspects of 
+        working with JavaScript and its offshoots. Examples of my work may be found in the Portfolio section 
+        of this website. Please feel free to contact me. Social media links and my CV may be found in the 
+        Contact section.</p>
       </div>
       </div>
     </div>
