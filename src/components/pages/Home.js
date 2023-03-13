@@ -3,17 +3,20 @@ import React from "react";
 const styles = {
   page: {
     background: "rgb(195, 219, 239)",
-    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+    fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
   },
   header: {
-    textAlign: "center",
+    paddingTop: "35px",
+    textAlign: "center"
   },
   subHeader: {
     textAlign: "center",
     marginBottom: "50px"
   },
   imageTextContainer: {
-    paddingBottom: "400px"
+    paddingBottom: "400px",
+    display: "flex",
+    justifyContent: "center"
   },
   imageBox: {
     display: "flex",
