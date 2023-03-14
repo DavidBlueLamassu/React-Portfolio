@@ -29,8 +29,8 @@ function Portfolio() {
   );
 }
 
-//Card components diplay: The map() method is used to display all the project data stored in projects.json using the 
-//ProjectCard props component held in ProjectCard/index.js as a template.
+//Card components display: The map() method is used to display all the project data stored in projects.json using the 
+//ProjectCard props component held in ProjectCard.js as a template.
 function ProjectDisplay() {
     return( <div className="row"> {/*Displays card components in rows instead of column default.*/}
       {
