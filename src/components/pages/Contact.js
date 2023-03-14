@@ -62,7 +62,7 @@ function Contact(props) {
           <a href="https://www.linkedin.com/in/david-adams-922022a1/" style={styles.links}>LinkedIn Page</a>
         </div>
         <div className="col-lg-3 col-md-6 col-sm-12">
-          {/*The code to allow this link to open an e-mail application derives from a suggestion from Steve in reply to a post
+          {/*The code to allow this link to open an e-mail application derives from a suggestion by Steve in reply to a post
           on "Stack Overflow": Meathead, "Bootstrap Button to Open Email", Stack Overflow (26 January 2016), last viewed: 
           14 March 2023: https://stackoverflow.com/questions/35015257/bootstrap-button-to-open-email*/}
           <a href="mailto:dra21@cam.ac.uk" style={styles.links}>E-mail</a>
@@ -71,7 +71,7 @@ function Contact(props) {
           <a href="https://drive.google.com/file/d/1bzNSK8dZJcKRyuq8AdRfgVmCGf3MVq90/view" style={styles.links}>CV</a>
         </div>
       </div>
-      {/* This textbox section below is a Bootstrap form component: Overview from https://getbootstrap.com/docs/4.0/components/forms/ */}
+      {/* The textbox section below is a Bootstrap form component: Overview from https://getbootstrap.com/docs/4.0/components/forms/ */}
       <form>
         <div className="form-group" style={styles.inputSpacing}>
           <label style={styles.textMe}>Send me a text</label>

@@ -12,8 +12,8 @@ const styles = {
 
 //The navbar below is a Boostrap component: Navbar, Nav with unordered list format from: 
 //https://getbootstrap.com/docs/4.3/components/navbar/ The navbar uses react-router to navigate between the 
-//Home, Portfolio and Contact components. As the navbar button would not open merely by importing bootstrap into
-//the index.js file JavaScript links were also set up in index.html as suggested by Malhar Kulkarni in reply to a 
+//Home, Portfolio and Contact components. As the navbar button would not open merely by importing Bootstrap into
+//the index.js file, JavaScript links were also set up in index.html as suggested by Malhar Kulkarni in reply to a 
 //post on "Stack Overflow": Aditya Chopra, "Why is my navbar collapse toggle not working in react", Stack Overflow
 //(19 May 2019), last viewed: 14 March 2023: 
 //https://stackoverflow.com/questions/56207103/why-is-my-navbar-collapse-toggle-not-working-in-react

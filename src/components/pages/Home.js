@@ -28,7 +28,7 @@ const styles = {
     display: "flex",
     justifyContent: "center"
   },
-  //Sets image size and position; marginBottom place space between image and text below when the former is centered in 
+  //Sets image size and position; marginBottom places space between image and text below when the former is centered in 
   //smaller media formats
   image: {
     height: "200px",
