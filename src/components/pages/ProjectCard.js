@@ -35,6 +35,10 @@ const styles = {
 //https://levelup.gitconnected.com/display-images-in-react-8ff1f5b1cf9a and in Harshvardhan Singh Baghel's answer to a question
 //on "Stack Overflow": Zip, "How do I reference a local image in React?", Stack Overflow (12 October 2016), 
 //last viewed 14 March 2023: https://stackoverflow.com/questions/39999367/how-do-i-reference-a-local-image-in-react
+//After deployment, however, the images once again did not display. This problem was solved by placing the repo name "react-portfolio"
+//in front of the image location as suggested in Monstar's reply to a post on "Stack Overflow": Yiming, "Image in public folder 
+//not loading after deployment", Stack Overflow (25 April 2022), last viewed: 14 March 2023: 
+//https://stackoverflow.com/questions/72006595/image-in-public-folder-not-loading-after-deployment
 function ProjectCard(props) {
   return ( 
     <article className="col-lg-4 col-md-6 col-sm-12" style={styles.cardPosition}> {/* Class name ensures that cards are responsive */}

@@ -53,7 +53,7 @@ function Home() {
         {/* Class name ensures that this div and text box <p> below are responsive. In the largest format the image will
         appear to the left of the textbox. In smaller formats it will be above the textbox and centered */}
         <div className="col-lg-2 col-md-2 col-sm-2" style={styles.imageBox} >
-          <img alt="David Adams" src="./../assets/images/portrait.jpg" style={styles.image} />
+          <img alt="David Adams" src="./../react-portfolio/assets/images/portrait.jpg" style={styles.image} />
         </div>
         <p className="lead col-lg-10 col-md-12 col-sm-12" style={styles.text}>Welcome to my webpage. I am 
         currently training as a web developer and am in the final stages of a coding bootcamp in Front End 
