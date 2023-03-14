@@ -5,20 +5,18 @@ import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 
+//Allows the different page components to be accessed through react-router
 function App() {
   return (
     <Router>
       <div>
         <Header />
-        {/* Wrap Route elements in a Routes component */}
+        {/* Route elements wrapped in Header component, so that the navbar in Header will always be displayed */}
         <Routes>
-          {/* Define routes using the Route component to render different page components at different paths */}
-          {/* Define a default route that will render the Home component */}
+          {/* Sets up the paths to render the different page components; these will be accessible through the navbar in Header*/}
           <Route path="/" element={<Home />} />
           <Route path="portfolio" element={<Portfolio />} />
-          
-          {/* Define a route that will have descendant routes */}
-          <Route path="contact/" element={<Contact />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

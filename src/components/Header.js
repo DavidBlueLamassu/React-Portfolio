@@ -1,9 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-// Navbar Nav: list format: https://getbootstrap.com/docs/4.3/components/navbar/
-
 const styles = {
+  //Sets fonts, navbar background to pale gray and a thin black line to separate navbar from page components
   page: {
     background: "#e2dddd",
     fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
@@ -11,6 +10,13 @@ const styles = {
   }
 }
 
+//The navbar below is a Boostrap component: Navbar, Nav with unordered list format from: 
+//https://getbootstrap.com/docs/4.3/components/navbar/ The navbar uses react-router to navigate between the 
+//Home, Portfolio and Contact components. As the navbar button would not open merely by importing bootstrap into
+//the index.js file JavaScript links were also set up in index.html as suggested by Malhar Kulkarni in reply to a 
+//post on "Stack Overflow": Aditya Chopra, "Why is my navbar collapse toggle not working in react", Stack Overflow
+//(19 May 2019), last viewed: 14 March 2023: 
+//https://stackoverflow.com/questions/56207103/why-is-my-navbar-collapse-toggle-not-working-in-react
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light" style={styles.page}>
@@ -55,10 +61,6 @@ function Navbar() {
         </ul>
       </div>
     </nav>
-   
-    
-    
-    
   );
 }
 
